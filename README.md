@@ -11,7 +11,12 @@ This project is a Machine Learning-based web application that helps real estate 
 * 📈 **Future Property Price (after 5 years)** *(Regression)*
 * ✅ **Whether a property is a Good Investment or not** *(Classification)*
 
-The system uses data-driven insights and domain-based feature engineering to provide accurate recommendations.
+---
+
+## 🚀 Live Demo
+
+👉 **Try the app here:**
+🔗 https://jyothi1235-real-estate-investment-advisor-app-zp7c2t.streamlit.app/
 
 ---
 
@@ -22,7 +27,7 @@ Develop an intelligent system that:
 * Classifies properties as **Good Investment** or **Not**
 * Predicts **future property value after 5 years**
 * Provides insights through a **Streamlit interactive application**
-* Tracks experiments using **MLflow**
+* Tracks experiments using MLflow
 
 ---
 
@@ -41,9 +46,9 @@ Develop an intelligent system that:
 * Pandas, NumPy
 * Scikit-learn
 * Machine Learning (Regression & Classification)
-* Streamlit (UI Deployment)
-* MLflow (Experiment Tracking)
-* Matplotlib, Seaborn (EDA Visualization)
+* Streamlit
+* MLflow
+* Matplotlib, Seaborn
 
 ---
 
@@ -53,11 +58,11 @@ Develop an intelligent system that:
 
 ### Key Features:
 
-* Location: State, City
-* Property Info: BHK, Size, Type
-* Price Details: Price, Price per SqFt
-* Infrastructure: Schools, Hospitals, Transport
-* Amenities & Facilities
+* State, City
+* BHK, Size, Property Type
+* Price, Price per SqFt
+* Nearby Schools, Hospitals
+* Amenities, Security
 
 ---
 
@@ -68,7 +73,7 @@ Develop an intelligent system that:
 * Removed duplicates
 * Handled missing values
 * Encoded categorical features
-* Feature scaling applied
+* Applied feature scaling
 
 ### 🔹 Feature Engineering
 
@@ -80,13 +85,13 @@ Develop an intelligent system that:
 ### 🔹 Target Variables
 
 * **Regression:** Future Price using growth formula
-* **Classification:** Good Investment based on multi-factor rules
+* **Classification:** Good Investment based on multi-factor logic
 
 ---
 
 ## 📈 Exploratory Data Analysis (EDA)
 
-* Price distribution analysis
+* Price distribution
 * Size vs Price relationship
 * Correlation heatmap
 * Location-based trends
@@ -95,15 +100,15 @@ Develop an intelligent system that:
 
 ## 🤖 Models Used
 
-* **Regression:** Random Forest Regressor
-* **Classification:** Decision Tree Classifier
+* Random Forest Regressor
+* Decision Tree Classifier
 
 ---
 
 ## 📊 Model Evaluation
 
-* **Regression:** RMSE, MAE
-* **Classification:** Accuracy, F1-score, Confusion Matrix
+* Regression: RMSE
+* Classification: Accuracy, F1-score
 
 ---
 
@@ -138,13 +143,13 @@ Features:
 
 ## ▶️ How to Run
 
-### 1. Install dependencies
+### Install dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-### 2. Run Streamlit app
+### Run app
 
 ```
 streamlit run app.py
@@ -154,29 +159,26 @@ streamlit run app.py
 
 ## 📌 Results
 
-* Successfully built regression & classification models
-* Achieved low RMSE for price prediction
-* Developed an interactive Streamlit dashboard
-* Implemented feature-based investment logic
+* Built regression & classification models
+* Achieved good prediction performance
+* Developed an interactive dashboard
 
 ---
 
 ## 📚 Key Learnings
 
-* Data preprocessing & feature engineering
+* Data preprocessing
+* Feature engineering
 * Model building & evaluation
-* Real-world problem solving
 * Streamlit deployment
-* MLflow experiment tracking
 
 ---
 
 ## 🔮 Future Improvements
 
-* Add location-based growth rates
-* Integrate real-time data
-* Improve model accuracy with advanced algorithms
-* Deploy on cloud (Streamlit Cloud / AWS)
+* Location-based growth prediction
+* Real-time data integration
+* Advanced ML models
 
 ---
 
@@ -188,6 +190,6 @@ streamlit run app.py
 
 ## ⭐ Conclusion
 
-This project demonstrates how machine learning can assist in making smart real estate investment decisions using data-driven insights.
+This project shows how machine learning can help make better real estate investment decisions using data-driven insights.
 
 ---
